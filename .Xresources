@@ -1,0 +1,10 @@
+! ~/.Xresources
+! created by BSM 2013 03 11
+
+URxvt.scrollBar: false
+
+urxvt*foreground: #f2f2f2
+urxvt*background: #101010
+
+xterm*foreground: #f2f2f2
+xterm*background: #101010
