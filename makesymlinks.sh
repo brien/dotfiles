@@ -1,4 +1,4 @@
-#!/bin.bash
+#!/bin/bash
 #
 # This scripts creates symlinks from the home directory to desired dotfiles in ~/dotfiles
 #
@@ -15,7 +15,7 @@ files=".bashrc .vimrc .fonts.conf .Xresources .Xmodmap .xinitrc"
 
 # create dotfiles_old in homedir
 echo -n "Creating $olddir for backup of any existing dotfiles in ~ ..."
-mkdir -p $oldir
+mkdir -p $olddir
 echo "done"
 
 # change to the dotfiles directory
