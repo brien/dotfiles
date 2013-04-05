@@ -11,14 +11,14 @@ xset r rate 200 20
 
 while true
 do
-    VOL=$(amixer get Master | tail -1 | sed 's/.*\[\([0-9]*%\)\].*/\1/')
+    VOL="Vol $(amixer get Master | tail -1 | sed 's/.*\[\([0-9]*%\)\].*/\1/')"
     TIME=$(date +'%H:%M')
     if acpi -a | grep off-line > /dev/null
     then
         BAT="Bat. $(acpi -b | awk '{ print $4 " " $5 }' | tr -d ',')"
-        xsetroot -name "$BAT $VOL $TIME"
+        xsetroot -name "$BAT | $VOL | $TIME"
     else
-        xsetroot -name "$VOL $TIME"
+        xsetroot -name "$VOL | $TIME"
     fi 
 	sleep 15s
 done &
