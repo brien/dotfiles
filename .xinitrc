@@ -24,3 +24,4 @@ do
 done &
 
 exec dwm
+#exec openbox
