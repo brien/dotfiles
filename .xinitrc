@@ -20,7 +20,7 @@ do
     else
         xsetroot -name "| $VOL | $TIME"
     fi 
-	sleep 15s
+	sleep 1s
 done &
 
 exec dwm
