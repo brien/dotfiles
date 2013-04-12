@@ -6,6 +6,8 @@
 " be vim, not vi
 set nocompatible
 
+set term=xterm-256color
+
 " Vundle Set up
 "----------------------------------------------------------------
 filetype off    " required by Vundle
@@ -38,8 +40,6 @@ filetype plugin indent on   "required by Vundle
 "1 important
 "------------------------------------
 
-" be vim, not vi
-set nocompatible
 filetype off
 
 "2 moving around, searching, patterns
