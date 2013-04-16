@@ -65,7 +65,9 @@ set background=dark
 colorscheme jellybeans
 "6 multiple windows
 "------------------------------------
-
+"0, 1 or 2; when to use a status line for the last window
+"required by vim-powerline
+set laststatus=2
 "7 multiple tab pages
 "------------------------------------
 
