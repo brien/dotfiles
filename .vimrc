@@ -29,6 +29,7 @@ filetype off    " required by Vundle
 
 " github bundles:
 Bundle 'nanotech/jellybeans.vim'
+Bundle 'Lokaltog/vim-powerline'
 
 filetype plugin indent on   "required by Vundle
 "or
