@@ -22,6 +22,6 @@ do
     fi 
 	sleep 1s
 done &
-
+#dwmstatus &
 exec dwm
 #exec openbox
